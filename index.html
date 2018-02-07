@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Samane MVC || Framework 100% Africain</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+</head>
+
+<body>
+	<!-- Page Samane-->
+	    <!-- Discover -->
+      <section id="discover">
+		<!--   Content -->
+		<div class="samane-content">
+			
+			<div class="samane-box">
+				<a href="https://github.com/ngorseckframework/samanemvc" title="">
+				<h1><span>Télécharger</span></h1>
+				</a>
+			</div>
+		
+		
+			<div class="samane-box">
+				<a href="home.html" title="">
+				<h1><span>Documentation</span></h1>
+				</a>
+			</div>
+		
+		
+		</div>
+
+      </section>
+        
+		</! Page D'accueil  -->                                    
+	  <div class="home-content" >
+	           <!-- Home -->
+	    <div id="home" class="content">
+			<div class="home-search">
+				<div class="home-icon"></div>
+				<div class="frmSearch">
+					<form>
+						<input type="text" name="" value="" placeholder="Que Cherchez Vous ?">
+					</form>
+				</div>
+			</div>
+	    
+	     <!--Home Text-->
+	      <div id="home-text" >
+	        <h1 data-text="SAMANE" class="wow fadeIn" data-wow-duration="3s">SAMANE</h1>
+	        <a  href="#" type="button" class="btn-home wow fadeIn btn-open" data-wow-delay="1s" data-wow-duration="2s">Découvrir</a>
+	      </div>
+	    </div>
+      </div>
+
+       <script src="js/jquery-2.1.1.min.js"></script>
+       <script src="js/wow.js"></script>
+       <script src="js/script.js"></script>
+       <script type="text/javascript">
+ 			 $(document).ready(function(){
+                $('.btn-open').click(function(){
+                	 $('.home-content').fadeOut(300);
+                    $('#discover').fadeIn(300);        
+                });
+            });
+       </script>
+</body>
+</html>
